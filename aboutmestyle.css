@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+    padding: 5;
+    color: white !important;
+    background: linear-gradient(293deg, #bbaacd, #adb095, #b19cd9, #b39eb5);
+    background-size: 800% 800%;
+
+    -webkit-animation: linearGradient 6s ease infinite;
+    -moz-animation: linearGradient 6s ease infinite;
+    -o-animation: linearGradient 6s ease infinite;
+    animation: linearGradient 6s ease infinite;
+}
+
+@-webkit-keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-moz-keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-o-keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+
+nav {
+    background-color: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+a {
+ color: #413713 !important;
+}
+
+a:hover {
+    color: #606746 !important;
+}
+
+.dropdown-menu {
+    background-color: #bbaacd;
+}
+
+h1 {
+    text-align:left;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #413713;
+}
+
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #413713;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 350;
+    color: #413713;
+    }
+
+.container {
+    justify-content: center;
+    padding-top: 25px;
+    height: 50px;
+}
+
+#me {
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+}
+
+#profile-pic {
+    text-align: center;
+}
+
+#contact-logos {
+    text-align: center;
+}
+
+img.icon {
+    height: 50px;
+    width: auto;
+}
+
+#container-animation {
+    opacity: 1;
+	animation-name: fade-in;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+#container-animation-2 {
+    opacity: 1;
+	animation-name: fade-in;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+#container-animation-3 {
+    opacity: 1;
+	animation-name: fade-in;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+#profile-pic {
+    opacity: 1;
+	animation-name: fade-in;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#footer-design {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #413713;
+}
+
+#footer-des {
+    font-size: small !important;
+}
+
+#copyright {
+    color: #f4f4f5; 
+}

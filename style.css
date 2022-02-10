@@ -1,0 +1,148 @@
+html {
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+body {
+    color: white !important;
+    background: linear-gradient(293deg, #bbaacd, #adb095, #b19cd9, #b39eb5);
+    background-size: 800% 800%;
+
+    -webkit-animation: linearGradient 6s ease infinite;
+    -moz-animation: linearGradient 6s ease infinite;
+    -o-animation: linearGradient 6s ease infinite;
+    animation: linearGradient 6s ease infinite;
+}
+
+@-webkit-keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-moz-keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@-o-keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+@keyframes linearGradient {
+    0%{background-position:0% 11%}
+    50%{background-position:100% 90%}
+    100%{background-position:0% 11%}
+}
+
+.welcome-title-container {
+    height: 100%;
+    text-align: center;
+    padding-top: 60px;
+    opacity: 1;
+	animation-name: fade-in;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    height: 60vh;
+    opacity: 1;
+	animation-name: fade-in;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
+
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif
+    !important;
+}
+
+#title {
+    display: inline-block;
+    letter-spacing: 1px !important;
+    font-size: 5rem !important;
+    font-weight: 400;
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+#sub {
+    display: inline-block;
+    font-size: 5rem !important;
+    letter-spacing: 1px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+#emphasize {
+    color: #41373d;
+    font-weight:800;
+}
+
+h2 {
+    font-size: 5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+div {
+    display: block;
+}
+
+.container {
+    justify-content:center;
+    display: flex;
+    width: 80vw;
+}
+
+.row {
+    text-align:center;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: 'Josefin Sans', sans-serif
+    !important;
+}
+
+.row a:hover {
+ color: #41373d !important;
+ transform: scale(1.4);
+}
+
+.icon {
+    height: auto;
+    width: 7rem;
+    padding-bottom: 13px;
+    display: inline-block;
+    justify-content: center;
+    justify-self: center;
+}
+
+.container-fluid {
+    opacity: 1;
+	animation-name: fade-in;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+}
