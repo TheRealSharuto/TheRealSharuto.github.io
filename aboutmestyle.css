@@ -1,37 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@300;400&display=swap');
+
 body {
     padding: 5;
-    color: white !important;
-    background: linear-gradient(293deg, #bbaacd, #adb095, #b19cd9, #b39eb5);
-    background-size: 800% 800%;
-
-    -webkit-animation: linearGradient 6s ease infinite;
-    -moz-animation: linearGradient 6s ease infinite;
-    -o-animation: linearGradient 6s ease infinite;
-    animation: linearGradient 6s ease infinite;
+    background-color: #f4f4f5;
+opacity: 1;
+background-image:  radial-gradient(#b19cd9 0.5px, transparent 0.5px), radial-gradient(#b19cd9 0.5px, #f4f4f5 0.5px);
+background-size: 20px 20px;
+background-position: 0 0,10px 10px;
 }
 
-@-webkit-keyframes linearGradient {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@-moz-keyframes linearGradient {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@-o-keyframes linearGradient {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@keyframes linearGradient {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
+
 
 nav {
     background-color: none;
@@ -46,18 +26,25 @@ nav {
     padding-right:30px;
   }
 
-a {
- color: #413713 !important;
-}
-
-a:hover {
-    color: #606746 !important;
-}
-
-.dropdown-menu {
-    background-color: #bbaacd;
-}
-
+  nav a {
+    color: #413713 !important;
+   }
+   
+   nav a:hover {
+       color: #606746 !important;
+   }
+   nav .dropdown-menu a:focus {
+    background-color: #606746 !important;
+    color: #f4f4f5 !important;
+   }
+   
+   .dropdown-menu {
+       background-color: #bbaacd;
+   }
+   
+   nav.dropdown-menu a:active {
+       color: #F4f4f5 !important;
+   }
 h1 {
     text-align:left;
     font-family: 'Josefin Sans', sans-serif;
@@ -71,7 +58,7 @@ h2 {
 
 p {
     font-size: 20px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Halant', serif;
     font-weight: 350;
     color: #413713;
     }
@@ -152,5 +139,36 @@ img.icon {
 }
 
 #copyright {
-    color: #f4f4f5; 
+    color: #413713; 
 }
+
+button.btn {
+    background-color: #413713 !important;
+    border: none !important;
+    color:#f4f4f5 !important;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+button.navbar-toggler {
+    border: none !important;
+}
+
+::placeholder {
+    font-family: 'Halant', serif;
+}
+
+.mb-3 {
+    text-align: left;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #413713;
+}
+
+.btn {
+    background: #413713;
+    color: #f4f4f5;
+}
+
+.btn:hover {
+    background: #bbaacd;
+}
+
