@@ -52,7 +52,7 @@ body {
 .logo-container {
     display: flex;
     justify-content: center;
-    height: 60vh;
+    height: 32vw;
     opacity: 1;
 	animation-name: fade-in;
 	animation-iteration-count: 1;
@@ -64,12 +64,12 @@ body {
 h1 {
     font-family: 'Josefin Sans', sans-serif
     !important;
+    font-size: 5rem;
 }
 
-#title {
+h1 #title {
     display: inline-block;
     letter-spacing: 1px !important;
-    font-size: 5rem !important;
     font-weight: 400;
 }
 
@@ -82,14 +82,21 @@ h1 {
 	}
 }
 
-#sub {
+h1 #sub {
     display: inline-block;
-    font-size: 5rem !important;
     letter-spacing: 1px;
     font-weight: 400;
     opacity: 1;
 }
 
+@media screen and (max-width: 500px) {
+    h1 {
+        font-size: 3rem !important;
+    }
+.fade-in-links {
+        font-size: 2rem !important;
+    }
+}
 #emphasize {
     color: #41373d;
     font-weight:800;
@@ -123,12 +130,29 @@ div {
     font-weight: 100;
     font-family: 'Josefin Sans', sans-serif
     !important;
+    text-align:center;
+}
+.row {
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
 
-.row a:hover {
- color: #41373d !important;
- transform: scale(1.4);
-}
+.row {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+
+.row a:hover,.row:focus,.row:active {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+    color: #41373d !important;
+  }
 
 .icon {
     height: auto;
@@ -141,8 +165,21 @@ div {
 
 .container-fluid {
     opacity: 1;
-	animation-name: fade-in;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 2s;
+	-webkit-animation-name: fade-in;
+	        animation-name: fade-in;
+	-webkit-animation-iteration-count: 1;
+	        animation-iteration-count: 1;
+	-webkit-animation-timing-function: ease-in;
+	        animation-timing-function: ease-in;
+	-webkit-animation-duration: 2s;
+	        animation-duration: 2s;
+}
+
+* { 
+    color:#fff; 
+    text-decoration: none !important;
+}
+
+a .typewrite {
+    text-decoration: none;
 }

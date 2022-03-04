@@ -13,7 +13,7 @@ background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f4f
 nav {
     background-color: none;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 20px !important;
     text-align: center;
 }
@@ -31,9 +31,6 @@ nav .nav-item a:hover {
     color: #606746 !important;
 }
 
-.dropdown-menu {
-    background-color: #bbaacd;
-}
 
 .active, .focus {
     background-color: #606746 !important;
@@ -124,4 +121,11 @@ h1 {
   .btn-success .badge { 
     color: #606746; 
     background-color: #F4f4f5; 
+  }
+
+  .card-img-top {
+      border-radius: 1rem;
+  }
+  .codepen {
+      border-radius: 1rem;
   }
