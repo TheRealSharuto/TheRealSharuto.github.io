@@ -6,7 +6,7 @@ body {
     padding: 5;
     background-color: #f4f4f5;
 opacity: 1;
-background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #f4f4f5 10px ), repeating-linear-gradient(#e5e5f7, #ffff );
+background-image: repeating-linear-gradient(#e5e5f7, #ffff );
     transition: ease-in-out;
 }
 
@@ -124,8 +124,5 @@ h1 {
   }
 
   .card-img-top {
-      border-radius: 1rem;
-  }
-  .codepen {
       border-radius: 1rem;
   }
