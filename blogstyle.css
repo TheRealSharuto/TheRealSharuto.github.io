@@ -45,3 +45,14 @@ nav {
    nav.dropdown-menu a:active {
        color: #F4f4f5 !important;
    }
+
+   /* Small devices (landscape phones, 576px and down) */
+
+@media (max-width: 576px) {
+    nav {
+        background-color: rgb(187, 170, 205, 0.8);
+    }
+    #navbar-space {
+        height: 13vh !important;
+    }
+ }

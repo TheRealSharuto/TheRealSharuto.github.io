@@ -11,10 +11,8 @@ background-size: 20px 20px;
 background-position: 0 0,10px 10px;
 }
 
-
-
 nav {
-    background-color: none;
+    background-color: rgb(187, 170, 205, 0.95) !important;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     font-size: 20px !important;
@@ -26,25 +24,46 @@ nav {
     padding-right:30px;
   }
 
-  nav a {
-    color: #413713 !important;
-   }
-   
-   nav a:hover {
-       color: #606746 !important;
-   }
-   nav .dropdown-menu a:focus {
-    background-color: #606746 !important;
+  .nav-link{
     color: #f4f4f5 !important;
    }
    
-   .dropdown-menu {
-       background-color: #F4f4f5;
+   nav a:hover {
+       color: #413713 !important;
+   }
+
+   nav .dropdown-menu a:focus a:active a:hover {
+    background-color: #bbaacd !important;
+    color: #f4f4f5 !important;
    }
    
-   nav.dropdown-menu a:active {
-       color: #F4f4f5 !important;
+   nav.dropdown-menu a{
+       background-color: #F4f4f5;
+       color: #413713;
    }
+
+   .space {
+       height: 17vh;
+   }
+   /* Small devices (landscape phones, 576px and down) */
+
+@media (max-width: 576px) {
+    nav {
+        background-color: rgb(187, 170, 205, 0.8);
+    }
+    .space {
+        height: 15vh !important;
+    }
+ }
+
+ /* Medium devices (tablets, 992px and down) */
+@media (max-width: 992px) { 
+    .space {
+        height: 10vh;
+    }
+}
+
+
 h1 {
     text-align:left;
     font-family: 'Josefin Sans', sans-serif;
