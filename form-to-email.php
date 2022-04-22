@@ -15,7 +15,7 @@ if(empty($name) ||empty($visitor_email))
     exit;
 }
 $email_from='shara.a.belton@gmail.com';//<== this is my email
-$email_subject = "New Form submission";
+$email_subject = "New Form Submission";
 $email_body = "You have received a new message from the user $name. \n". "email address: $visitor_email\n". "Here is the message:\n $message".
 
 $to = "shara.a.belton@gmail.com";// my email again hehehe
