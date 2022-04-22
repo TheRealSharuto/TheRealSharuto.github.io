@@ -191,6 +191,15 @@ button.navbar-toggler {
     background: #bbaacd;
 }
 
+.form-group #submit-button {
+    background: #413713 !important;
+    color: #f4f4f5 !important;
+}
+
+.form-group #submit-button:hover {
+    background: #bbaacd !important;
+}
+
 form .form-control{
     opacity: 0.68 !important;
 }
