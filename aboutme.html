@@ -59,7 +59,6 @@
             </div>
         </div>
     </nav>
-
     <div class="space"></div>
     <div class="container-xl" id="container-animation-2">
         <div class="row justify-content-around">
@@ -131,28 +130,32 @@
                         <h2 class="download"><u>UX/UI only projects</u></h2>
                     </a>
                     <br>
-                    <form class="form-control form-rounded form-shadow">
+                    <form class="form-control form-rounded form-shadow" action="form-to-email.php" method="post"
+                        enctype="multipart/form-data" id="contact-form" name="myemailform">
                         <div class="mb-3">
-                            <label for="inputName" class="form-label">Name</label>
+                            <label for="name" class="form-label">Name</label>
                             <input type="text" class="form-control form-rounded" placeholder="Shara Belton"
-                                id="inputName" aria-describedby="name">
+                                id="inputName" aria-describedby="name" required>
                         </div>
                         <div class="mb-3">
-                            <label for="inputEmail" class="form-label">Email address</label>
-                            <input type="email" class="form-control form-rounded"
-                                placeholder="best-person-ever@gmail.com" id="inputEmail">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control form-rounded Required"
+                                placeholder="best-person-ever@gmail.com" data-error="That email address is invalid"
+                                required id="inputEmail">
                         </div>
                         <div class="mb-3">
-                            <label for="inputSubject" class="form-label">Subject</label>
+                            <label for="subject" class="form-label">Subject</label>
                             <input type="text" class="form-control form-rounded" placeholder="Job Offer: UX Designer"
-                                id="inputSubject">
+                                id="inputSubject" required>
                         </div>
                         <div class="mb-3 mt-3">
                             <label for="comment" class="form-label">Message</label>
                             <textarea class="form-control form-rounded" rows="5" id="comment" name="text"
-                                placeholder="Your message for me"></textarea>
+                                placeholder="Your message for me" required></textarea>
                         </div>
-                        <input type="submit" class="btn rounded-pill" input type="Submit">
+                        <div class="form-group">
+                            <button type="submit" class="btn rounded-pill">Submit</button>
+                        </div>
                     </form>
                 </div>
             </div>

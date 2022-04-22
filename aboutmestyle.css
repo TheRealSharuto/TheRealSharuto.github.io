@@ -59,7 +59,7 @@ nav {
  /* Medium devices (tablets, 992px and down) */
 @media (max-width: 992px) { 
     .space {
-        height: 10vh;
+        height: 15vh;
     }
 }
 
