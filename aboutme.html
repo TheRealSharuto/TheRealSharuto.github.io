@@ -17,6 +17,8 @@
     <link rel=" stylesheet" type="text/css" href="./bootstrap.css" />
     <!-- Bootstrap JS -->
     <script src="bootstrap.bundle.js"></script>
+    <!-- cloudflare js-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/validate.js/0.13.1/validate.min.js"></script>
     <!-- Linked CSS Style Sheet -->
     <link rel=" stylesheet" type="text/css" href="./aboutmestyle.css" />
 
@@ -46,7 +48,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="webdev.html">Web Development</a></li>
-                            <li><a class="dropdown-item" href="#uxui-design">UX/UI Design</a></li>
+                            <li><a class="dropdown-item" href="uxui.html">UX/UI Design</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
@@ -118,7 +120,8 @@
                 </div>
                 <br>
                 <div class="container-xl" id="container-animation-3">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drive.google.com/file/d/1myIsdiEk0RFpyUS9L2FFU1V2se-TKJRA/view?usp=sharing"
+                        target="_blank" rel="noopener noreferrer">
                         <h2 class="download"><u>Resume download</u></h2>
                     </a>
                     <br>
@@ -130,49 +133,28 @@
                         <h2 class="download"><u>UX/UI only projects</u></h2>
                     </a>
                     <br>
-                    <form class="form-control form-rounded form-shadow" action="form-to-email.php" method="post"
-                        enctype="multipart/form-data" id="contact-form" name="myemailform">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input type="text" class="form-control form-rounded" placeholder="Shara Belton"
-                                id="inputName, name" aria-describedby="name" name="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email address</label>
-                            <input type="email" class="form-control form-rounded Required"
-                                placeholder="best-person-ever@gmail.com" data-error="That email address is invalid"
-                                id="inputEmail, email" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="subject" class="form-label">Subject</label>
-                            <input type="text" class="form-control form-rounded" name="subject"
-                                placeholder="Job Offer: UX Designer" id="inputSubject, subject" required>
-                        </div>
-                        <div class="mb-3 mt-3">
-                            <label for="comment" class="form-label">Message</label>
-                            <textarea class="form-control form-rounded" rows="5" id="comment, message" name="message"
-                                placeholder="Your message for me" required></textarea>
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" name="submit" input type="submit" class="btn rounded-pill"
-                                id="submit-button, submit">Submit</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="row justify-content-around">
-                <div id="About-me-paragraph" class="col-xs-4 col-md-4 col-lg-4">
+                    <hr>
                     <br>
+                    <h2>Contact me! &#8595;</h2>
+                    <br>
+                    <div data-tf-widget="uLXBQHI1" data-tf-opacity="65" data-tf-hide-headers
+                        data-tf-iframe-props="title=Shara's Contact Form" data-tf-medium="snippet"
+                        style="width:100%;height:400px;"></div>
+                    <script src="//embed.typeform.com/next/embed.js"></script>
+                </div>
+                <div class="row justify-content-around">
+                    <div id="About-me-paragraph" class="col-xs-4 col-md-4 col-lg-4">
+                        <br>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <footer id="footer">
-            <div class="container-fluid" id="footer-design">
-                <p id="footer-des">Website, Design, & Code by Shara Belton <i id="copyright">&copy;</i> 2022</p>
-            </div>
-    </div>
-    </footer>
+            <footer id="footer">
+                <div class="container-fluid" id="footer-design">
+                    <p id="footer-des">Website, Design, & Code by Shara Belton <i id="copyright">&copy;</i> 2022</p>
+                </div>
+        </div>
+        </footer>
 </body>
 
 </html>
